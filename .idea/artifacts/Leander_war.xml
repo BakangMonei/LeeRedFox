@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Leander:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Leander</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Leander-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Leander:war exploded" />
+    </root>
+  </artifact>
+</component>
